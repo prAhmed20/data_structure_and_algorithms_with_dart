@@ -1,14 +1,14 @@
 void selectionSort(List list) {
   for (int i = 0; i < list.length; i++) {
     int minn = list[i];
-    int loc = i;
+    int minnIndex = i;
     for (int j = i + 1; j < list.length; j++) {
       if (minn > list[j]) {
         minn = list[j];
-        loc = j;
+        minnIndex = j;
       }
     }
-    swap(list, i, loc);
+    swap(list, i, minnIndex);
   }
 }
 
