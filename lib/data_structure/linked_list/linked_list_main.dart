@@ -1,9 +1,6 @@
-import 'package:data_structure_with_dart/data_structure/linked_list/linked_list.dart';
-import 'package:data_structure_with_dart/data_structure/linked_list/node.dart';
-
 void main() {
 // Creating a Linked List by Hand
-  final node3 = Node(value: 3);
+/*  final node3 = Node(value: 3);
   final node2 = Node(value: 2, next: node3);
   final node1 = Node(value: 1, next: node2);
 
@@ -42,4 +39,6 @@ void main() {
   list3.insertAfter(middleNode, 42);
 
   print('After: $list3');
+
+  */
 }
